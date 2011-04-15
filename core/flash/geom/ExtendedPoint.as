@@ -15,8 +15,7 @@ package mornington.core.flash.geom
         }
 
         public function devideBang(n:Number):void {
-            x = x / n;
-            y = y / n;
+            x = x / n; y = y / n;
         }
     }
 }

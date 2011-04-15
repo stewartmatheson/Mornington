@@ -1,20 +1,20 @@
 package mornington.lib {
     import flash.display.Stage;
-	import com.events.StateEvent;
-	import com.lib.State;
+	import mornington.events.StateEvent;
+	import mornington.lib.State;
 	
 	public class StateContext
 	{
 		private var currentStage:Stage;
 		private var currentState:State;
 	
-		public function set initState(s:State):void
-		{
-			if(currentState)
-				return;
-			else
-				setupState(s);
-		}
+        public function set initState(s:State):void {
+            if(currentState) {
+                return;
+            } else {
+                setupState(s);
+            }
+        }
 
 		public function StateContext(s:Stage)
 		{

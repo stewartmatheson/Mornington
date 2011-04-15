@@ -1,7 +1,7 @@
 package mornington.events {
 
 	import flash.events.Event;
-	import com.lib.State;
+	import mornington.lib.State;
 
 	public class StateEvent extends flash.events.Event {
 
